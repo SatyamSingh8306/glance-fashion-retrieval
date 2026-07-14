@@ -27,7 +27,7 @@ from data_generator import build_eval_ground_truth, EVAL_QUERIES
 from store import VectorStore
 from retriever import Retriever
 
-REPO_URL = "https://github.com/<your-username>/glance-fashion-retrieval"
+REPO_URL = "https://github.com/SatyamSingh8306/glance-fashion-retrieval"
 
 
 # --------------------------------------------------------------- metrics
