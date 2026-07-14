@@ -1,0 +1,87 @@
+[
+  {
+    "query": "A person in a bright yellow raincoat.",
+    "vanilla_top5": [
+      "2898c07ef740e24cb05c068998a9e23d",
+      "729331a4d925fefce91c66918f4a14eb",
+      "e636280e96f3863157a4398c92fc299e",
+      "1d28435f6cabcd0654ab3b4f11c15c0c",
+      "bb48a572b525975f60627fdea9cfaf0a"
+    ],
+    "compositional_top5": [
+      "2898c07ef740e24cb05c068998a9e23d",
+      "729331a4d925fefce91c66918f4a14eb",
+      "e636280e96f3863157a4398c92fc299e",
+      "1d28435f6cabcd0654ab3b4f11c15c0c",
+      "bb48a572b525975f60627fdea9cfaf0a"
+    ]
+  },
+  {
+    "query": "Professional business attire inside a modern office.",
+    "vanilla_top5": [
+      "6fe199d9875bd01b8361d7f0d5d4c071",
+      "7fc8a54146a81b33f348f21ad07fa141",
+      "ac9cf5f349291912f5a973202b51da55",
+      "78b4540e25f89ed0f3108375f5844bb8",
+      "e2ba4d1e422cc766d9e8eaacd3a25a3e"
+    ],
+    "compositional_top5": [
+      "6fe199d9875bd01b8361d7f0d5d4c071",
+      "7fc8a54146a81b33f348f21ad07fa141",
+      "ac9cf5f349291912f5a973202b51da55",
+      "78b4540e25f89ed0f3108375f5844bb8",
+      "e2ba4d1e422cc766d9e8eaacd3a25a3e"
+    ]
+  },
+  {
+    "query": "Someone wearing a blue shirt sitting on a park bench.",
+    "vanilla_top5": [
+      "f06fd9e18c7a2c5b533e68de88fb487b",
+      "cd9737f2cf0967f12cc001d57568e913",
+      "ecb9073d265f18598c61f21d10098339",
+      "9c2550f6d3d9aa0f9fb0f8618ba9a588",
+      "e417adb1c8cffc239d369e95dd621190"
+    ],
+    "compositional_top5": [
+      "f06fd9e18c7a2c5b533e68de88fb487b",
+      "cd9737f2cf0967f12cc001d57568e913",
+      "ecb9073d265f18598c61f21d10098339",
+      "9c2550f6d3d9aa0f9fb0f8618ba9a588",
+      "e417adb1c8cffc239d369e95dd621190"
+    ]
+  },
+  {
+    "query": "Casual weekend outfit for a city walk.",
+    "vanilla_top5": [
+      "c87fb99e4cbb5a408e8fa1f4d86f9204",
+      "5a45019f91a09b34caad0730b77f281d",
+      "b89941b5ca18bbe2152a76e19c77b249",
+      "f678117f6e91501c86eb0194d2f81c9e",
+      "b5ec1e1497ca6c4784ce91e9f99cf39f"
+    ],
+    "compositional_top5": [
+      "c87fb99e4cbb5a408e8fa1f4d86f9204",
+      "5a45019f91a09b34caad0730b77f281d",
+      "b89941b5ca18bbe2152a76e19c77b249",
+      "f678117f6e91501c86eb0194d2f81c9e",
+      "b5ec1e1497ca6c4784ce91e9f99cf39f"
+    ]
+  },
+  {
+    "query": "A red tie and a white shirt in a formal setting.",
+    "vanilla_top5": [
+      "7fc8a54146a81b33f348f21ad07fa141",
+      "c3481ffac40b45bed9ba4cb688928e48",
+      "913109abff6b0222d9afed1c7aaeb38f",
+      "33cfdcbd48019b09e36a78c428bbae1d",
+      "78b4540e25f89ed0f3108375f5844bb8"
+    ],
+    "compositional_top5": [
+      "7fc8a54146a81b33f348f21ad07fa141",
+      "c3481ffac40b45bed9ba4cb688928e48",
+      "913109abff6b0222d9afed1c7aaeb38f",
+      "78b4540e25f89ed0f3108375f5844bb8",
+      "33cfdcbd48019b09e36a78c428bbae1d"
+    ]
+  }
+]

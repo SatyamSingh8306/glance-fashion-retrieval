@@ -1,0 +1,218 @@
+{
+  "assessment": [
+    {
+      "query": "A person in a bright yellow raincoat.",
+      "relevant": 10,
+      "vanilla_top10": [
+        "img_00605",
+        "img_00195",
+        "img_00328",
+        "img_00016",
+        "img_00387",
+        "img_00604",
+        "img_00606",
+        "img_00470",
+        "img_00156",
+        "img_00556"
+      ],
+      "compositional_top10": [
+        "img_00605",
+        "img_00195",
+        "img_00016",
+        "img_00604",
+        "img_00606",
+        "img_00602",
+        "img_00607",
+        "img_00601",
+        "img_00600",
+        "img_00603"
+      ]
+    },
+    {
+      "query": "Professional business attire inside a modern office.",
+      "relevant": 47,
+      "vanilla_top10": [
+        "img_00231",
+        "img_00007",
+        "img_00420",
+        "img_00189",
+        "img_00469",
+        "img_00083",
+        "img_00168",
+        "img_00447",
+        "img_00429",
+        "img_00315"
+      ],
+      "compositional_top10": [
+        "img_00231",
+        "img_00007",
+        "img_00189",
+        "img_00469",
+        "img_00420",
+        "img_00168",
+        "img_00083",
+        "img_00429",
+        "img_00447",
+        "img_00315"
+      ]
+    },
+    {
+      "query": "Someone wearing a blue shirt sitting on a park bench.",
+      "relevant": 17,
+      "vanilla_top10": [
+        "img_00113",
+        "img_00623",
+        "img_00592",
+        "img_00005",
+        "img_00384",
+        "img_00097",
+        "img_00579",
+        "img_00618",
+        "img_00383",
+        "img_00589"
+      ],
+      "compositional_top10": [
+        "img_00113",
+        "img_00623",
+        "img_00005",
+        "img_00592",
+        "img_00618",
+        "img_00589",
+        "img_00617",
+        "img_00494",
+        "img_00597",
+        "img_00620"
+      ]
+    },
+    {
+      "query": "Casual weekend outfit for a city walk.",
+      "relevant": 41,
+      "vanilla_top10": [
+        "img_00081",
+        "img_00346",
+        "img_00439",
+        "img_00030",
+        "img_00239",
+        "img_00255",
+        "img_00340",
+        "img_00365",
+        "img_00137",
+        "img_00179"
+      ],
+      "compositional_top10": [
+        "img_00081",
+        "img_00346",
+        "img_00030",
+        "img_00255",
+        "img_00439",
+        "img_00239",
+        "img_00340",
+        "img_00360",
+        "img_00179",
+        "img_00365"
+      ]
+    },
+    {
+      "query": "A red tie and a white shirt in a formal setting.",
+      "relevant": 13,
+      "vanilla_top10": [
+        "img_00565",
+        "img_00563",
+        "img_00523",
+        "img_00502",
+        "img_00527",
+        "img_00510",
+        "img_00557",
+        "img_00635",
+        "img_00641",
+        "img_00493"
+      ],
+      "compositional_top10": [
+        "img_00565",
+        "img_00527",
+        "img_00557",
+        "img_00493",
+        "img_00635",
+        "img_00638",
+        "img_00634",
+        "img_00632",
+        "img_00485",
+        "img_00637"
+      ]
+    }
+  ],
+  "probe": [
+    {
+      "query": "a red shirt and a blue pants",
+      "mode": "vanilla",
+      "rank_correct": 25.863636363636363,
+      "rank_swapped": 31.125
+    },
+    {
+      "query": "a red shirt and a blue pants",
+      "mode": "compositional",
+      "rank_correct": 11.5,
+      "rank_swapped": 86.29166666666667
+    },
+    {
+      "query": "a blue shirt and a red pants",
+      "mode": "vanilla",
+      "rank_correct": 31.125,
+      "rank_swapped": 25.863636363636363
+    },
+    {
+      "query": "a blue shirt and a red pants",
+      "mode": "compositional",
+      "rank_correct": 12.5,
+      "rank_swapped": 67.27272727272727
+    },
+    {
+      "query": "a white shirt and a black pants",
+      "mode": "vanilla",
+      "rank_correct": 28.24,
+      "rank_swapped": 27.894736842105264
+    },
+    {
+      "query": "a white shirt and a black pants",
+      "mode": "compositional",
+      "rank_correct": 13.0,
+      "rank_swapped": 76.21052631578948
+    },
+    {
+      "query": "a black shirt and a white pants",
+      "mode": "vanilla",
+      "rank_correct": 27.894736842105264,
+      "rank_swapped": 28.24
+    },
+    {
+      "query": "a black shirt and a white pants",
+      "mode": "compositional",
+      "rank_correct": 10.0,
+      "rank_swapped": 52.64
+    },
+    {
+      "query": "a red tie and a white shirt",
+      "mode": "vanilla",
+      "rank_correct": 28.923076923076923,
+      "rank_swapped": 29.1
+    },
+    {
+      "query": "a red tie and a white shirt",
+      "mode": "compositional",
+      "rank_correct": 13.5,
+      "rank_swapped": 82.8
+    },
+    {
+      "query": "a white tie and a red shirt",
+      "mode": "vanilla",
+      "rank_correct": 29.1,
+      "rank_swapped": 28.923076923076923
+    },
+    {
+      "query": "a white tie and a red shirt",
+      "mode": "compositional",
+      "rank_correct": 15.5,
+      "rank_swapped": 74.61538461538461
+    }
+  ]
+}

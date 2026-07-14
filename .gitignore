@@ -1,0 +1,10 @@
+# generated artifacts (large, reproducible)
+data/
+index/
+index_real/
+.venv/
+
+# os
+__pycache__/
+*.pyc
+.DS_Store
