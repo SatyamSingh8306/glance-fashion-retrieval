@@ -5,7 +5,6 @@ tqdm
 pyyaml
 reportlab
 
-# --- production backend (optional, for real photos / FashionPedia) ---
-# torch
-# open_clip_torch
-# fashion-clip
+
+torch
+open_clip_torch
