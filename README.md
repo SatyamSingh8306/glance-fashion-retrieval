@@ -4,6 +4,8 @@ An attribute-aware, **compositional** image retrieval engine that beats vanilla
 CLIP on fashion queries by explicitly modelling `(colour → garment)` bindings,
 scene and style — instead of collapsing a query into a bag of words.
 
+> **Setup / install / dataset download:** see [`SETUP.md`](SETUP.md).
+
 ## Architecture at a glance
 ```
 natural-language query
