@@ -65,10 +65,12 @@ correct vs swapped outfits while the compositional retriever can.
 
 ### 4.1 Download
 
+**Dataset URL:** https://s3.amazonaws.com/ifashionist-dataset/images/val_test2020.zip
+
 ```bash
 # from the project root
 curl -L -o val_test2020.zip https://s3.amazonaws.com/ifashionist-dataset/images/val_test2020.zip
-# (or paste the URL into a browser and download manually)
+# (or paste the URL above into a browser and download manually)
 ```
 
 ### 4.2 Unzip into the expected location

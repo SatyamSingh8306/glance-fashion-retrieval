@@ -39,7 +39,11 @@ python scripts/search.py "A red tie and a white shirt in a formal setting" --k 5
 
 ## Use real data (FashionPedia / your own photos)
 The repo includes a real run on the FashionPedia `test` split (val_test2020.zip,
-3,200 images). Unzip it under `data/fashion2020/test` and:
+3,200 images). Download it from:
+
+**https://s3.amazonaws.com/ifashionist-dataset/images/val_test2020.zip**
+
+Unzip it under `data/fashion2020/test` and:
 ```bash
 pip install torch open_clip_torch        # CPU torch: pip install torch --index-url https://download.pytorch.org/whl/cpu
 python scripts/build_index.py --images-dir data/fashion2020/test --index index_real --backend clip
