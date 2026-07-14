@@ -79,21 +79,33 @@ def bullets(items):
         bulletType="bullet", start="•", leftIndent=12)
 
 
+HCELL = ParagraphStyle("HCELL", parent=ss["BodyText"], fontSize=8, leading=10,
+                        textColor=colors.white, fontName="Helvetica-Bold")
+BCELL = ParagraphStyle("BCELL", parent=ss["BodyText"], fontSize=8, leading=10)
+
+
 def grid(data, col_widths, header=True):
-    t = Table(data, colWidths=col_widths, hAlign="LEFT")
+    wrapped = []
+    for r, row in enumerate(data):
+        new = []
+        for cell in row:
+            txt = str(cell).replace("\n", "<br/>")
+            st = HCELL if (header and r == 0) else BCELL
+            new.append(Paragraph(txt, st))
+        wrapped.append(new)
+    t = Table(wrapped, colWidths=col_widths, hAlign="LEFT")
     style = [
-        ("FONTSIZE", (0, 0), (-1, -1), 8),
         ("GRID", (0, 0), (-1, -1), 0.4, colors.HexColor("#cccccc")),
         ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
         ("ROWBACKGROUNDS", (0, 1), (-1, -1),
          [colors.white, colors.HexColor("#f6f8fa")]),
         ("TOPPADDING", (0, 0), (-1, -1), 3),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 3),
+        ("LEFTPADDING", (0, 0), (-1, -1), 4),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 4),
     ]
     if header:
-        style += [("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#28527a")),
-                  ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
-                  ("FONTNAME", (0, 0), (-1, 0), "Helvetica-Bold")]
+        style += [("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#28527a"))]
     t.setStyle(TableStyle(style))
     return t
 
